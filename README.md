@@ -1,1 +1,1 @@
-# Katas
+# Kata practice 🥋
