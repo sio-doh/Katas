@@ -8,7 +8,7 @@
 # the colon and space in between.
 # Examples: (Input --> Output)
 #   [] --> []
-#   ["a", "b", "c"] --> ["1: a", "2: b", "3: c"]
+#   ["a", "b", "c"] --> ["1: a", "2: b", "3: c"] 
 def number(lines):
     count = 1 
     line = [] 
