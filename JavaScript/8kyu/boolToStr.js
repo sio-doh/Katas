@@ -1,12 +1,11 @@
 /* 
-https://www.codewars.com/kata/56dec885c54a926dcd001095
+https://www.codewars.com/kata/551b4501ac0447318f0009cd
 DESCRIPTION:
-Very simple, given an integer or a floating-point number, find its opposite.
-Examples:
-1: -1
-14: -14
--34: 34
+Implement a function which convert the given boolean 
+value into its string representation.
+Note: Only valid inputs will be given.
 */ 
-function booleanToString(b){
-    return Boolean(b) ? "true" : "false";
+
+function booleanToString(b) {
+    return String(b);
 }
