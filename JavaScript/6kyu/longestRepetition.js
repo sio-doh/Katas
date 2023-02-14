@@ -13,7 +13,7 @@ In JavaScript: If you use Array.sort in your solution,
 you might experience issues with the random tests as 
 Array.sort is not stable in the Node.js version used 
 by CodeWars. This is not a kata issue.
-/*
+*/
 
 function longestRepetition(s) {
     if (s.length == 0) {
