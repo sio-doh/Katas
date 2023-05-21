@@ -17,11 +17,19 @@
 //     perimeter(5)  should return 80
 //     perimeter(7)  should return 216
 
-def perimeter(n):
-    p = 1; a = 0; b = 1 
-    for i in range(n): 
-        p += a + b 
-        c = a 
-        a = b
-        b += c 
-    return p*4
+function perimeter(n) {
+    if (n === 0) return 4;
+    if (n === 1) return 8;
+    let fib1 = 1;
+    let fib2 = 1;
+    let sum = fib1 + fib2;
+    let idx = 2;
+    while (idx <= n) {
+        let temp = fib1;
+        fib1 = fib2; 
+        fib2 = temp + fib2; 
+        sum += fib2;
+        idx++;
+    }
+    return sum * 4;
+}
